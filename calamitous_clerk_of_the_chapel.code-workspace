@@ -17,6 +17,44 @@
             "activityBarBadge.background": "#73841c",
             "activityBarBadge.foreground": "#e7e7e7",
             "tab.activeBorder": "#f2c1ea"
-        }
+        },
+        "hidefiles.configurationType": "local",
+        "hidefiles.globalConfig": {
+            "profiles": [
+                {
+                    "name": "Default",
+                    "detail": "",
+                    "description": "Test",
+                    "hidden": [
+                        ".vscode/",
+                        ".Ulysses-Group.plist",
+                        ".Ulysses-Settings.plist"
+                    ]
+                },
+                {
+                    "name": "Strict",
+                    "detail": "Hide everything not immediately required",
+                    "hidden": [
+                        "$Default"
+                    ]
+                }
+            ]
+        },
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            ".vscode/": true,
+            ".Ulysses-Group.plist": true,
+            ".Ulysses-Settings.plist": true
+        },
+        "hidefiles.selectedProfile": "Default",
+        "gitdoc.autoCommitDelay": 10000,
+        "gitdoc.autoPull": "afterDelay",
+        "gitdoc.autoPullDelay": 10000,
+        "gitdoc.autoPush": "afterDelay",
+        "gitdoc.enabled": true
     }
 }
