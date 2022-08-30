@@ -52,9 +52,9 @@
         },
         "hidefiles.selectedProfile": "Default",
         "gitdoc.autoCommitDelay": 10000,
-        "gitdoc.autoPull": "afterDelay",
+        "gitdoc.autoPull": "onPush",
         "gitdoc.autoPullDelay": 10000,
-        "gitdoc.autoPush": "afterDelay",
+        "gitdoc.autoPush": "onCommit",
         "gitdoc.enabled": true
     }
 }
