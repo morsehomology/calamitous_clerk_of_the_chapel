@@ -5,5 +5,15 @@
             "path": "."
         }
     ],
-    "settings": {}
+    "settings": {
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#f2c1ea",
+            "activityBar.background": "#f2c1ea",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#73841c",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "tab.activeBorder": "#f2c1ea"
+        }
+    }
 }
