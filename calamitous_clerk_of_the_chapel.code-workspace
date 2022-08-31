@@ -9,52 +9,53 @@
         }
     ],
     "settings": {
-        "workbench.colorCustomizations": {
-            "activityBar.activeBackground": "#f2c1ea",
-            "activityBar.background": "#f2c1ea",
-            "activityBar.foreground": "#15202b",
-            "activityBar.inactiveForeground": "#15202b99",
-            "activityBarBadge.background": "#73841c",
-            "activityBarBadge.foreground": "#e7e7e7",
-            "tab.activeBorder": "#f2c1ea"
-        },
-        "hidefiles.configurationType": "local",
-        "hidefiles.globalConfig": {
-            "profiles": [
-                {
-                    "name": "Default",
-                    "detail": "",
-                    "description": "Test",
-                    "hidden": [
-                        ".vscode/",
-                        ".Ulysses-Group.plist",
-                        ".Ulysses-Settings.plist"
-                    ]
-                },
-                {
-                    "name": "Strict",
-                    "detail": "Hide everything not immediately required",
-                    "hidden": [
-                        "$Default"
-                    ]
-                }
-            ]
-        },
         "files.exclude": {
-            "**/.git": true,
-            "**/.svn": true,
-            "**/.hg": true,
-            "**/CVS": true,
-            "**/.DS_Store": true,
-            ".vscode/": true,
             ".Ulysses-Group.plist": true,
-            ".Ulysses-Settings.plist": true
+            ".Ulysses-Settings.plist": true,
+            ".vscode/": true,
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.hg": true,
+            "**/.svn": true,
+            "**/CVS": true
         },
-        "hidefiles.selectedProfile": "Default",
         "gitdoc.autoCommitDelay": 10000,
         "gitdoc.autoPull": "onPush",
         "gitdoc.autoPullDelay": 10000,
         "gitdoc.autoPush": "onCommit",
-        "gitdoc.enabled": true
+        "gitdoc.enabled": true,
+        "hidefiles.configurationType": "local",
+        "hidefiles.globalConfig": {
+            "profiles": [
+                {
+                    "description": "Test",
+                    "detail": "",
+                    "hidden": [
+                        ".vscode/",
+                        ".Ulysses-Group.plist",
+                        ".Ulysses-Settings.plist"
+                    ],
+                    "name": "Default"
+                },
+                {
+                    "detail": "Hide everything not immediately required",
+                    "hidden": [
+                        "$Default"
+                    ],
+                    "name": "Strict"
+                }
+            ]
+        },
+        "hidefiles.selectedProfile": "Default",
+        "peacock.color": "#172c6a",
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#203d94",
+            "activityBar.background": "#203d94",
+            "activityBar.foreground": "#e7e7e7",
+            "activityBar.inactiveForeground": "#e7e7e799",
+            "activityBarBadge.background": "#1a060b",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "tab.activeBorder": "#203d94"
+        }
     }
 }
