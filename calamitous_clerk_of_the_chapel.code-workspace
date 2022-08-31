@@ -47,15 +47,16 @@
             ]
         },
         "hidefiles.selectedProfile": "Default",
-        "peacock.color": "#172c6a",
+        // "peacock.color": "#172c6a",
+        "peacock.color": "#f2c1ea",
         "workbench.colorCustomizations": {
-            "activityBar.activeBackground": "#203d94",
-            "activityBar.background": "#203d94",
-            "activityBar.foreground": "#e7e7e7",
-            "activityBar.inactiveForeground": "#e7e7e799",
-            "activityBarBadge.background": "#1a060b",
-            "activityBarBadge.foreground": "#e7e7e7",
-            "tab.activeBorder": "#203d94"
+            "activityBar.activeBackground": "#fbebf8",
+            "activityBar.background": "#fbebf8",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#879f20",
+            "activityBarBadge.foreground": "#15202b",
+            "tab.activeBorder": "#fbebf8"
         }
     }
 }
