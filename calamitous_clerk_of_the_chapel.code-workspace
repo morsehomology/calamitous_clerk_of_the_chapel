@@ -10,14 +10,14 @@
     ],
     "settings": {
         "files.exclude": {
-            ".Ulysses-Group.plist": true,
-            ".Ulysses-Settings.plist": true,
-            ".vscode/": true,
-            "**/.DS_Store": true,
             "**/.git": true,
-            "**/.hg": true,
             "**/.svn": true,
-            "**/CVS": true
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            ".vscode/": true,
+            ".Ulysses-Group.plist": true,
+            ".Ulysses-Settings.plist": true
         },
         "gitdoc.autoCommitDelay": 10000,
         "gitdoc.autoPull": "onPush",
@@ -56,7 +56,8 @@
             "activityBar.inactiveForeground": "#15202b99",
             "activityBarBadge.background": "#879f20",
             "activityBarBadge.foreground": "#15202b",
-            "tab.activeBorder": "#fbebf8"
+            "tab.activeBorder": "#fbebf8",
+            "sideBar.border": "#fbebf8"
         }
     }
 }
